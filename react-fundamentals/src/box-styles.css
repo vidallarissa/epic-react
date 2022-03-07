@@ -1,0 +1,25 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #333;
+}
+.box--large {
+  width: 270px;
+  height: 270px;
+  background-color: orange;
+  font-style: italic;
+}
+.box--medium {
+  width: 180px;
+  height: 180px;
+  background-color: pink;
+  font-style: italic;
+}
+.box--small {
+  width: 90px;
+  height: 90px;
+  background-color: lightblue;
+  font-style: italic;
+}
